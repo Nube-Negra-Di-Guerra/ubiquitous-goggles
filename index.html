@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Random Number Generator Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 class="title"> Do you know what number am thinking about? IT's a number you know, between 1 and 10</h1>
+
+<input type="number" autofocus id="InputNumber" class="InputNumber">
+<br>
+<br>
+<br>
+<button id="ButtonResult" onclick="giveNumber()" >Result</button>
+
+
+<div class="RightAnswer" id="RightAnswer"> 
+    RIGHT, I was thinking about the number <span id="NumThink"> </span>
+</div>
+
+<div class="WrongAnswer" id="WrongAnswer">
+    WRONG, I was thinking about the number <span id="NumThink2"> </span>
+</div>
+
+
+<script src="index.js" > </script>
+
+</body>
+</html>

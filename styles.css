@@ -1,0 +1,35 @@
+
+    .InputNumber{
+        height: 50px;
+        width: 50%;
+        text-align: center;
+        font-size: 57px;
+        padding: 10px;
+    }
+
+    .RightAnswer{
+        text-align: center;
+        font-size: 57px;
+        margin-top: 50px;
+        display: none;
+        background-color: coral;
+    }
+
+    .WrongAnswer{
+        text-align: center;
+        font-size: 57px;
+        margin-top: 50px;
+        display: none;
+        background-color: coral;
+
+    }
+
+    #ButtonResult{
+        width: 400px;
+        height: 50px;
+        font-size: larger;
+        font-weight: 900;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+    }
